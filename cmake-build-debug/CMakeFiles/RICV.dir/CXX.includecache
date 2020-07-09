@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/ClionProjects/RICV/PIPELINE.h
+bin.h
+D:/ClionProjects/RICV/bin.h
+
+D:/ClionProjects/RICV/READIN.h
+bin.h
+D:/ClionProjects/RICV/bin.h
+
+D:/ClionProjects/RICV/bin.h
+cstdio
+-
+iostream
+-
+bitset
+-
+cstring
+-
+queue
+-
+
+D:/ClionProjects/RICV/main.cpp
+bin.h
+D:/ClionProjects/RICV/bin.h
+READIN.h
+D:/ClionProjects/RICV/READIN.h
+PIPELINE.h
+D:/ClionProjects/RICV/PIPELINE.h
+fstream
+-
+
