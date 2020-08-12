@@ -444,7 +444,7 @@ public:
         ID[now].imm = imm;
         ID[now].operand = operand;
         ID[now].state = finished;
-        printf("%x : %x, %s, (rd)%s, (rs1)%s, (rs2)%s, %x, %x\n", pc,  code, INST_string[opt], REG_string[rd], REG_string[rs1], REG_string[rs2], operand, imm);
+        printf("%x : %x, %s\n", pc,  code, INST_string[opt]);
     }
 
     /*--------------------------instruction execute----------------------------*/
@@ -454,7 +454,6 @@ public:
     void JALR_exe() {
         EX[now].ALU = EX[now].npc;
         branch_skip = (ex_rs1_val + EX[now].operand) & (-2);
-        printf("1_%x, sext_%x, JALR_%x\n", ex_rs1_val, EX[now].operand, branch_skip);
     }
 
     void BEQ_exe() {
@@ -600,10 +599,8 @@ public:
     }
     void LW_mem() {
         int tmp;
-        printf("LW_addr: %x, ", MEM[now].ALU);
         memcpy(&tmp, mem + MEM[now].ALU, 4);
         MEM[now].ALU = tmp;
-        printf("write in reg: %x\n", MEM[now].ALU);
     }
     void SB_mem() { memcpy(mem + MEM[now].ALU, &mem_rs2_val, 1); }
     void SH_mem() { memcpy(mem + MEM[now].ALU, &mem_rs2_val, 2); }

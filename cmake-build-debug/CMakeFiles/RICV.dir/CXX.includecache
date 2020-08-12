@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-D:/ClionProjects/RICV/PIPELINE.h
+D:/ClionProjects/RISCV/PIPELINE.h
 bin.h
-D:/ClionProjects/RICV/bin.h
+D:/ClionProjects/RISCV/bin.h
 
-D:/ClionProjects/RICV/READIN.h
+D:/ClionProjects/RISCV/READIN.h
 bin.h
-D:/ClionProjects/RICV/bin.h
+D:/ClionProjects/RISCV/bin.h
 
-D:/ClionProjects/RICV/bin.h
+D:/ClionProjects/RISCV/bin.h
 cstdio
 -
 iostream
@@ -23,16 +23,14 @@ bitset
 -
 cstring
 -
-queue
--
 
-D:/ClionProjects/RICV/main.cpp
+D:/ClionProjects/RISCV/main.cpp
 bin.h
-D:/ClionProjects/RICV/bin.h
+D:/ClionProjects/RISCV/bin.h
 READIN.h
-D:/ClionProjects/RICV/READIN.h
+D:/ClionProjects/RISCV/READIN.h
 PIPELINE.h
-D:/ClionProjects/RICV/PIPELINE.h
+D:/ClionProjects/RISCV/PIPELINE.h
 fstream
 -
 
