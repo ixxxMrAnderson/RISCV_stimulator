@@ -18,7 +18,7 @@ int main() {
         total_loop ++;
         if (!FORWARD()) break;
     }
-//    printf("return:\t%d\n", reg[10]);
+    printf("%d\n", reg[10] & 0xff);
 //    printf("cal:\t%lld\n", cal_tot);
 //    printf("jump:\t%lld\n", jump_tot);
 //    printf("mem:\t%lld\n", mem_tot);
