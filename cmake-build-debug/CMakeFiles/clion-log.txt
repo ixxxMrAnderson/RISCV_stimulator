@@ -1,4 +1,1 @@
-"D:\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\ClionProjects\RISCV
--- Configuring done
--- Generating done
--- Build files have been written to: D:/ClionProjects/RISCV/cmake-build-debug
+CMakeLists.txt not found in D:\ClionProjects\RISCV Select CMakeLists.txt file...
